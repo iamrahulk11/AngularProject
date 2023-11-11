@@ -1,0 +1,34 @@
+.head{
+  /* Replace these colors with your desired gradient colors */
+
+  background: linear-gradient(to right,  #b700ff,#ff00b3);
+  /* You can adjust the direction and colors as needed */
+  /* For example, 'to right' means the gradient goes from left to right */
+  /* Other styles for your element */
+  width: 100%;
+  height: 60px; /* Adjust the height as needed */
+  /* Apply the gradient background */
+  background: linear-gradient(to right, #f700ff, #032750);
+}
+
+
+.example-card {
+    max-width: 250px;
+    margin: 5px;
+  }
+  
+  .app-wrapper{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .filters{
+    margin: 3px;
+  }
+  .options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
